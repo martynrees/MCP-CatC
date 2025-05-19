@@ -6,6 +6,8 @@ A Python-based MCP (Model Context Protocol) server designed to integrate Cisco C
 
 The Catalyst Center MCP Server provides a bridge between Cisco Catalyst Center network management platform and Claude desktop application. It enables network administrators to leverage Claude's capabilities for enhanced network monitoring, troubleshooting, and management through a convenient desktop interface.
 
+Demo: https://youtu.be/SIw_n9Bj5bk
+
 ## Requirements
 
 - Python 3.10+
@@ -66,6 +68,15 @@ cp ../MCP-CatC/main.py ./main.py
   }
 ```
 Restart app
+
+##Future Development
+The following improvements are planned for future development:
+- Add more API endpoints
+- TBD
+
+
+##Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
