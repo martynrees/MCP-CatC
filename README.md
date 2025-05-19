@@ -72,7 +72,7 @@ Restart app
 ## Future Development
 The following improvements are planned for future development:
 - Add more API endpoints
-- TBD
+- Finding an easier way to manage the project environment
 
 
 ## Contributing
