@@ -69,13 +69,13 @@ cp ../MCP-CatC/main.py ./main.py
 ```
 Restart app
 
-##Future Development
+## Future Development
 The following improvements are planned for future development:
 - Add more API endpoints
 - TBD
 
 
-##Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
