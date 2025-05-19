@@ -18,7 +18,6 @@ The Catalyst Center MCP Server provides a bridge between Cisco Catalyst Center n
 1. Clone this repository:
 ```bash
 git clone https://github.com/CozmaSerban/MCP-CatC.git
-cd catalyst-center-mcp-server
 ```
 
 
@@ -31,8 +30,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```bash
 
 # Create a new directory for our project
-uv init MCP-CatC
-cd MCP-CatC
+uv init MCP-Server
+cd MCP-Server
 
 # Create virtual environment and activate it
 uv venv
@@ -42,7 +41,7 @@ source .venv/bin/activate
 uv add "mcp[cli]" httpx
 
 # Create our server file
-mv main.py [/PATH/TO/PROJECT/DIRECTORY/main.py]
+cp ../MCP-CatC/main.py ./main.py
 ```
 
 3.Adding MCP to Claude Desktop App
@@ -59,7 +58,7 @@ mv main.py [/PATH/TO/PROJECT/DIRECTORY/main.py]
       "command": "/Users/scozma/.local/bin/uv",
       "args": [
         "--directory",
-        "/PATH/TO/MCP-CatC",
+        "/PATH/TO/MCP-Server",
         "run",
         "main.py"
       ]
