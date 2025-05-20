@@ -57,7 +57,7 @@ cp ../MCP-CatC/main.py ./main.py
 {
   "mcpServers": {
     "MCP-CatC": {
-      "command": "/Users/scozma/.local/bin/uv",
+      "command": "/PATH/uv",
       "args": [
         "--directory",
         "/PATH/TO/MCP-Server",
