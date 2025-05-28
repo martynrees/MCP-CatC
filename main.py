@@ -2896,3 +2896,7 @@ File Size: {backup.get('fileSize', 'Unknown')} bytes
 Encryption Key: {'Yes' if backup.get('encryptionKey', '') else 'No'}
 Tags: {', '.join(backup.get('tags', []) or ['None'])}
 """
+
+if __name__ == "__main__":
+    # Initialize and run the server
+    mcp.run(transport='stdio')
