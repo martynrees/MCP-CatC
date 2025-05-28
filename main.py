@@ -1593,7 +1593,7 @@ async def get_user_enrichment(username: str = None, mac_address: str = None, ent
 
     data = await client.request("GET", endpoint, params=params)
 
-    if not data or not data:
+    if not data:
         return "Unable to fetch user enrichment details or no details found."
 
     users = data
