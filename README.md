@@ -12,7 +12,7 @@ Demo: https://youtu.be/SIw_n9Bj5bk
 
 - Python 3.10+
 - Cisco Catalyst Center
-- Claude Desktop application 
+- Claude Desktop application
 
 
 ## Installation
@@ -66,6 +66,7 @@ cp ../MCP-CatC/main.py ./main.py
       ]
     }
   }
+}
 ```
 Restart app
 
